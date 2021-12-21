@@ -1,0 +1,25 @@
+{
+  "name": "assignment-11",
+  "version": "1.0.0",
+  "description": "installation express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtscorp/Assignment-11.git"
+  },
+  "author": "danangTS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtscorp/Assignment-11/issues"
+  },
+  "homepage": "https://github.com/dtscorp/Assignment-11#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}
