@@ -1,3 +1,16 @@
-const students = ["amel", "adam","winda","kamelia","samatha","bianca","laura", "irene"]
+const db = require('../config/database');
 
-module.exports = students;
+class Student {
+
+    static all() {
+        return new Promise((resolve, reject)=>{
+        const _queries = "SELECT * FROM student";
+        db.query(_queries, (err, result)=>{
+            resolve(result);
+        });
+    } );
+    
+    }
+}
+
+module.exports = Student;
